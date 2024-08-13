@@ -1,0 +1,68 @@
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/*                 Base Styles                 */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+html, body {
+    background: black;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+div#artificial {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+   
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/*                   SUBTITLES                 */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+subtitle {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    background: transparent;
+    font-size: calc( 3vh + 3vw );
+    color: #ffe;
+    text-shadow: 3px 1px 4px #222;
+    font-family: "San Francisco", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
+    font-weight: 200;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/*    Enumerate children for css variables     */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+div#artificial div:nth-child(1)  { --child: 1  }
+div#artificial div:nth-child(2)  { --child: 2  }
+div#artificial div:nth-child(3)  { --child: 3  }
+div#artificial div:nth-child(4)  { --child: 4  }
+div#artificial div:nth-child(5)  { --child: 5  }
+div#artificial div:nth-child(6)  { --child: 6  }
+div#artificial div:nth-child(7)  { --child: 7  }
+div#artificial div:nth-child(8)  { --child: 8  }
+div#artificial div:nth-child(9)  { --child: 9  }
+div#artificial div:nth-child(10) { --child: 10 }
+div#artificial div:nth-child(11) { --child: 11 }
+div#artificial div:nth-child(12) { --child: 12 }
+div#artificial div:nth-child(13) { --child: 13 }
+div#artificial div:nth-child(14) { --child: 14 }
+div#artificial div:nth-child(15) { --child: 15 }
+div#artificial div:nth-child(16) { --child: 16 }
+
